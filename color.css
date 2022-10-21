@@ -3,7 +3,8 @@
 }
 
 .row-color {
-    background-color: pink;
+    border: 2px solid black;
+    min-height: 100px;
 }
 
 .col-color {
