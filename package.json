@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "source": "./src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/assets/scss:dist/scss",
+    "watch": "sass --watch src/assets/scss:dist/scss"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,9 @@
   "homepage": "https://github.com/trine-marie-sandberg/learningbootstrap#readme",
   "dependencies": {
     "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.55.0"
   }
 }
