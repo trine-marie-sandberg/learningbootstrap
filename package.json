@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trine-marie-sandberg/learningbootstrap/issues"
   },
-  "homepage": "https://github.com/trine-marie-sandberg/learningbootstrap#readme"
+  "homepage": "https://github.com/trine-marie-sandberg/learningbootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }
